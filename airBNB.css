@@ -150,7 +150,8 @@ hr {
 
 .bottom-links li {
     display: inline-block;
-    padding-right: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .font-grey {
@@ -158,24 +159,26 @@ hr {
 }
 
 .bottom-register {
-    background-color: whitesmoke;
+    background-color: white;
     list-style: none;
     display: flex;
     margin-top: 2em;
     width: 100%;
-    justify-content: center;    
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    /* position: fixed;  */
 }
 
 .bottom-register li {
-    background-color: whitesmoke;
+    background-color: white;
     display: inline-block;
 }
 
 .bottom-pic {
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 120px;
     height: 50px;
-    width: 50px;
+    width: 50px;0
 }
 
 .bottom-register ul li {
@@ -197,14 +200,14 @@ hr {
 
 .date-link {
     display: flex;
-    color: whitesmoke;
+    color: white;
     background-color: tomato;
     padding: 20px 60px;
     border-radius: 10px;
 }
 
 #whitesmoke {
-    color: whitesmoke;
+    color: white;
 }
 
 .right-bottom {
@@ -245,9 +248,9 @@ hr {
     width: 200px;
 }
 
-@media screen and (max-width: 1701px) {
+@media screen and (max-width: 1692px) {
     .magic-show li {
-        display: block;
+        display: inline-flex;
         padding-right: 8px;
         margin-top: 30px;
     }
@@ -263,6 +266,28 @@ hr {
     .s-2 {
         margin-left: 50px;
     }
+
+    .block-1 {
+        display: block;
+        margin-left: 0em;
+        margin-right: 200px;
+        margin-bottom: 1em;
+    }
+    
+    .block-2 {
+        display: block;
+        padding-left: 0em;
+        padding-top: 2em;
+        margin-right: 0em;
+        margin-bottom: 1em;
+    }
+
+    .bottom-links {
+        display: inline-flex;
+        list-style: none;
+        padding-left: 0;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
