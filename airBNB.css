@@ -4,7 +4,7 @@ html, body {
 
 body {
     height: 100%;
-    background: linear-gradient(to bottom, black 55%, white 55% 100%);
+    background: linear-gradient(to bottom, black 48%, white 48% 100%);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Open Sans', sans-serif;
@@ -162,11 +162,8 @@ hr {
     list-style: none;
     display: flex;
     margin-top: 2em;
-    width: 80%;
-    margin-left: 10em;
-    margin-right: 10em;
-
-    
+    width: 100%;
+    justify-content: center;    
 }
 
 .bottom-register li {
@@ -189,6 +186,11 @@ hr {
     color: rgb(49, 48, 48)
 }
 
+.bottom-content {
+    display: flex;
+    justify-content: center;
+}
+
 .teal-font {
     color: teal;
 }
@@ -207,6 +209,18 @@ hr {
 
 .right-bottom {
     padding-left: 550px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.h3-magic {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.p-436 {
+    margin-top: 18px;
+    margin-left: 5px;
 }
 
 .flex-container {
